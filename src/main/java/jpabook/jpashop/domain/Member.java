@@ -15,7 +15,7 @@ public class Member {
     @Column(name = "member_id") // PK 이름 지정
     private Long id;
 
-    private String username;
+    private String name;
 
     @Embedded // 임베디드 타입 표시
     private Address address;
